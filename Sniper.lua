@@ -41,7 +41,7 @@ local Align = function(Part0, Part1,Mesh)
  return {Attachments.Attach0, Attachments, Aligns}
         
 end 
-local hat = Align(char['Sniper'].Handle,char['Right Arm'],false)
+local hat = Align(char['Meshes/SniperAccessory'].Handle,char['Right Arm'],false)
 local cf = char['Right Arm'].CFrame*CFrame.new(0,-1,-0.5)*CFrame.Angles(math.rad(35),math.rad(70),10.4)
 hat[1].CFrame = cf:Inverse() * char['Right Arm'].CFrame
 spawn(function()
