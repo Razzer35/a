@@ -83,7 +83,7 @@ return {
 
 		Main.Name = "Main"
 		Main.Parent = Gui
-		Main.BackgroundColor3 = Color3.fromRGB(133, 158, 226)
+		Main.BackgroundColor3 = Color3.fromRGB(90, 0, 0)
 		Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 		Main.AnchorPoint = Vector2.new(0.5,0.5)
 		Main.Size = UDim2.new(0, 438, 0, 250)
@@ -116,7 +116,7 @@ return {
 		TemplateText.Name = "Label"
 		TemplateText.Parent = Template
 		TemplateText.Size = UDim2.new(1,0,1,0)
-		TemplateText.Font = Enum.Font.Gotham
+		TemplateText.Font = Enum.Font.LuckiestGuy
 		TemplateText.TextColor3 = Color3.fromRGB(200, 200, 200)
 		TemplateText.TextSize = 14.000
 		TemplateText.BackgroundTransparency = 1.000
@@ -140,7 +140,7 @@ return {
 		Title.BackgroundTransparency = 1.000
 		Title.Position = UDim2.new(0.0406067744, 0, 0.0354312733, 0)
 		Title.Size = UDim2.new(0, 402, 0, 15)
-		Title.Font = Enum.Font.GothamSemibold
+		Title.Font = Enum.Font.LuckiestGuy
 		Title.Text = GuiName
 		Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 		Title.TextSize = 16.000
@@ -189,7 +189,7 @@ return {
 		ButtonText.Parent = ButtonTemplate
 		ButtonText.BackgroundTransparency = 1.000
 		ButtonText.Size = UDim2.new(1, 0, 1, 0)
-		ButtonText.Font = Enum.Font.Gotham
+		ButtonText.Font = Enum.Font.LuckiestGuy
 		ButtonText.TextColor3 = Color3.fromRGB(200, 200, 200)
 		ButtonText.TextSize = 14.000
 
@@ -222,7 +222,7 @@ return {
 		LabelTemplate.Parent = Scroller
 		LabelTemplate.BackgroundColor3 = Color3.fromRGB(102, 61, 255)
 		LabelTemplate.Size = UDim2.new(1, 0, 0, 30)
-		LabelTemplate.Font = Enum.Font.Gotham
+		LabelTemplate.Font = Enum.Font.LuckiestGuy
 		LabelTemplate.TextColor3 = Color3.fromRGB(200, 200, 200)
 		LabelTemplate.TextSize = 14.000
 		LabelTemplate.Visible = false
@@ -232,7 +232,7 @@ return {
 		SearchBarTemplate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		SearchBarTemplate.BackgroundTransparency = 1.000
 		SearchBarTemplate.Size = UDim2.new(1, 0, 0, 30)
-		SearchBarTemplate.Font = Enum.Font.Gotham
+		SearchBarTemplate.Font = Enum.Font.LuckiestGuy
 		SearchBarTemplate.PlaceholderText = "Search"
 		SearchBarTemplate.Text = ""
 		SearchBarTemplate.TextColor3 = Color3.fromRGB(200, 200, 200)
