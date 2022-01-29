@@ -437,8 +437,8 @@ ScriptsTab:NewButton("Grab Knife V4", "EXTREMELY UNSTABLE! YOU HAVE BEEN WARNED!
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/grab%20knife%20v4%20fe.lua"))()
 end)
 
-ScriptsTab:NewButton("Tonk", "FE Tank Script", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/tonk"))()
+ScriptsTab:NewButton("Guts", "Flings on touch and on swing!", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Guts"))()
 end)
 
 -- Credits
