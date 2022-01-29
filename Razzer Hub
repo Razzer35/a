@@ -441,6 +441,12 @@ ScriptsTab:NewButton("Guts", "Flings on touch and on swing!", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Guts"))()
 end)
 
+ScriptsTab:NewButton("Dog", "Pet dog that follows you around", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Dog"))()
+end)
+
+
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
