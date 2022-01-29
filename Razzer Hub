@@ -445,8 +445,8 @@ ScriptsTab:NewButton("Dog", "Pet dog that follows you around", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Dog"))()
 end)
 
-ScriptsTab:NewButton("Among Us", "Changes your avatar into the impostor", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Among%20Us"))()
+ScriptsTab:NewButton("Pet Head", "Opens a GUI that allows you to use your head to follow and annoy people", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Pet%20Head"))()
 end)
 
 
