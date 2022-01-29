@@ -50,7 +50,7 @@ ABS = math.abs
 MRANDOM = math.random
 FLOOR = math.floor
 
-speed = 1
+speed = 5
 sine = 1
 srv = game:GetService('RunService')
 
