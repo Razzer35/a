@@ -468,7 +468,7 @@ end)
 
 ScriptsTab:NewButton("Flip", "Z - Frontflip, X - Backflip, C - Infinite Jump", function()
 	
-	wait(5)
+	wait(2)
 
 --[[ Info ]]--
 
@@ -551,7 +551,7 @@ notifSound.Volume = 0.15
 notifSound.SoundId = "rbxassetid://170765130"
 notifSound.PlayOnRemove = true
 notifSound:Destroy()
-game.StarterGui:SetCore("SendNotification", {Title = "feFlip", Text = "feFlip loaded successfully!", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
+game.StarterGui:SetCore("SendNotification", {Title = "feFlip", Text = "Made By godfather#0289", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay"})
 
 	
 end)
