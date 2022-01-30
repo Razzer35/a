@@ -556,7 +556,7 @@ game.StarterGui:SetCore("SendNotification", {Title = "FE Flip", Text = "Made By 
 	
 end)
 
-ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
+ScriptsTab:NewButton("Mouse Fling", "Click E to move the fling part", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mouse%20Fling"))()
 end)
 
