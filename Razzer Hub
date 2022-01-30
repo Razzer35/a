@@ -462,6 +462,10 @@ for i,v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetChildren()) do
 end
 end)
 
+ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creeper"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
