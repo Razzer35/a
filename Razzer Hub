@@ -466,14 +466,14 @@ ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creeper"))()
 end)
 
-ScriptsTab:NewButton("Flip", "Loads the flip gui", function()
+ScriptsTab:NewButton("Flip", "Z - Frontflip, X - Backflip, C - Infinite Jump", function()
 	
 	wait(5)
 
 --[[ Info ]]--
 
 local ver = "2.00"
-local scriptname = "feFlip"
+local scriptname = "Flip"
 
 
 --[[ Keybinds ]]--
