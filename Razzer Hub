@@ -564,6 +564,10 @@ ScriptsTab:NewButton("Soccer Ball", "Puts any 6 hats into a working soccer ball!
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Soccer%20Ball"))()
 end)
 
+ScriptsTab:NewButton("Mech Hub", "Check Discord For Hats Required", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mech%20Hub"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
