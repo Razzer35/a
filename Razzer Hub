@@ -568,8 +568,8 @@ ScriptsTab:NewButton("Mech Hub", "Check Discord For Hats Required", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mech%20Hub"))()
 end)
 
-ScriptsTab:NewButton("Cadacus the fallen god", "No hats required", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Cadacus"))()
+ScriptsTab:NewButton("SushiX", "FE Free Hats GUI", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/SushiX"))()
 end)
 
 -- Credits
