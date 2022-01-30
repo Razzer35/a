@@ -449,7 +449,9 @@ ScriptsTab:NewButton("Pet Head", "Opens a GUI that allows you to use your head t
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Pet%20Head"))()
 end)
 
-
+ScriptsTab:NewButton("Big Head R15", "Makes your rthro head become gigantic", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15"))()
+end)
 
 -- Credits
 
