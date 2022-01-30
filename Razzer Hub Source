@@ -83,7 +83,7 @@ return {
 
 		Main.Name = "Main"
 		Main.Parent = Gui
-		Main.BackgroundColor3 = Color3.fromRGB(255, 87, 34)
+		Main.BackgroundColor3 = Color3.fromRGB(238, 57, 0)
 		Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 		Main.AnchorPoint = Vector2.new(0.5,0.5)
 		Main.Size = UDim2.new(0, 438, 0, 250)
@@ -220,7 +220,7 @@ return {
 
 		LabelTemplate.Name = "LabelTemplate"
 		LabelTemplate.Parent = Scroller
-		LabelTemplate.BackgroundColor3 = Color3.fromRGB(255, 87, 34)
+		LabelTemplate.BackgroundColor3 = Color3.fromRGB(238, 57, 0)
 		LabelTemplate.Size = UDim2.new(1, 0, 0, 30)
 		LabelTemplate.Font = Enum.Font.LuckiestGuy
 		LabelTemplate.TextColor3 = Color3.fromRGB(200, 200, 200)
