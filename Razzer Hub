@@ -6,7 +6,7 @@ end
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Razzer35/a/main/Razzer%20Hub%20Source"))()
 
-local Pendulum = Library.CreateLib("Razzer Hub")
+local Pendulum = Library.CreateLib("Orang Hub")
 local UserInputService = game:GetService("UserInputService")
 
 local ScriptsTab = Pendulum:NewTab("Scripts",false)
@@ -586,7 +586,7 @@ end)
 
 -- Credits
 
-CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
+CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
 CreditsTab:NewLabel("Ty marner.szn_#1554 for reanimation")
 CreditsTab:NewLabel("UI was made by MotionTaken#3117")
 
