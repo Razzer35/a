@@ -560,7 +560,7 @@ ScriptsTab:NewButton("Mouse Fling", "Click E to move the fling part", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mouse%20Fling"))()
 end)
 
-ScriptsTab:NewButton("Mouse Fling", "Click E to move the fling part", function()
+ScriptsTab:NewButton("Soccer Ball", "Puts any 6 hats into a working soccer ball!", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Soccer%20Ball"))()
 end)
 
