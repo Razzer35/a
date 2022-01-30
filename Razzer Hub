@@ -641,6 +641,10 @@ wait(1)
 	
 end)
 
+ScriptsTab:NewButton("Smile", "So you can show people you aren't a depressed emo", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Smile"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
