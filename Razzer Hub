@@ -645,6 +645,10 @@ ScriptsTab:NewButton("Smile", "So you can show people you aren't a depressed emo
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Smile"))()
 end)
 
+ScriptsTab:NewButton("Stilts", "FE Stilts, hats in discord", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Stilts"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
