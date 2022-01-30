@@ -568,6 +568,10 @@ ScriptsTab:NewButton("Mech Hub", "Check Discord For Hats Required", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mech%20Hub"))()
 end)
 
+ScriptsTab:NewButton("Cadacus the fallen god", "No hats required", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Cadacus"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
