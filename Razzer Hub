@@ -580,6 +580,10 @@ ScriptsTab:NewButton("Pet Hub", "Hats needed in discord", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Pet%20Hub"))()
 end)
 
+ScriptsTab:NewButton("Hoverboard", "Hats needed in discord", function()
+	loadstring(game:GetObjects('rbxassetid://7339698872')[1].Source)()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to Razzer35#2593 for making the entire hub")
