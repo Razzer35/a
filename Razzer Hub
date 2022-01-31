@@ -810,6 +810,9 @@ ScriptsTab:NewButton("Skateboard", "Working FE Skateboard, hat in discord", func
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Skateboard"))()
 end)
 
+ScriptsTab:NewButton("Neko", "For if you want to be a discord kitten", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Neko"))()
+end)
 -- Credits
 
 CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
