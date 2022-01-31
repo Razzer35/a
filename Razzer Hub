@@ -649,6 +649,10 @@ ScriptsTab:NewButton("Stilts", "FE Stilts, hats in discord", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Stilts"))()
 end)
 
+ScriptsTab:NewButton("Chat Haxx", "Allows you to chat as another player (FE)", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Chat%20Haxx"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
