@@ -806,6 +806,10 @@ end
 
 end)
 
+ScriptsTab:NewButton("Skateboard", "Working FE Skateboard, hat in discord", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Skateboard"))()
+end)
+
 -- Credits
 
 CreditsTab:NewLabel("Credits to godfather#0289 for making the entire hub")
