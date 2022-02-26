@@ -67,7 +67,7 @@ ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creeper"))()
 end)
 
-ScriptsTab:NewButton("Cyber Sniper", "requires Tactical Cyberpunk Sniper & Cyberpunk Hoverboard", function()
+ScriptsTab:NewButton("Fearful", "FE Fearful Anims w/ fling", function()
 	HumanDied = false
 local reanim
 function noplsmesh(hat)
