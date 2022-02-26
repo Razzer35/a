@@ -67,6 +67,10 @@ ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creeper"))()
 end)
 
+ScriptsTab:NewButton("Cyber Sniper", "requires Tactical Cyberpunk Sniper & Cyberpunk Hoverboard", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Cyber%Sniper"))()
+end)
+
 ScriptsTab:NewButton("Flip", "Z - Frontflip, X - Backflip, C - Infinite Jump", function()
 	
 	wait(2)
