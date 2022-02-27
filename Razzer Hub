@@ -26,8 +26,8 @@ end)
 
 -- Script Buttons
 
-ScriptsTab:NewButton("Gale Fighter", "Another classic!", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gale%20Fighter"))()
+ScriptsTab:NewButton("c00lkid gui", "A gui made by the legendary C00LKID!", function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 end)
 
 ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
