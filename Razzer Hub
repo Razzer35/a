@@ -30,6 +30,10 @@ ScriptsTab:NewButton("Gale Fighter", "Another classic!", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gale%20Fighter"))()
 end)
 
+ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gravity%20Gun"))()
+end)
+
 ScriptsTab:NewButton("Big Daddy", "thick", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Big%20Daddy.lua"))()
 end)
