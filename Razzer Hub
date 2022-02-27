@@ -54,6 +54,14 @@ ScriptsTab:NewButton("Dog", "Pet dog that follows you around", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Dog"))()
 end)
 
+ScriptsTab:NewButton("Mute Boombox", "Mutes everyones boombox", function()
+	while wait(1) do
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == "BoomBox" then v:Destroy() end
+end
+end
+end)
+
 ScriptsTab:NewButton("Pet Head", "Opens a GUI that allows you to use your head to follow and annoy people", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Pet%20Head"))()
 end)
