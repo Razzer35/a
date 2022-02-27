@@ -54,6 +54,10 @@ ScriptsTab:NewButton("Dog", "Pet dog that follows you around", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Dog"))()
 end)
 
+criptsTab:NewButton("AR-15", "Requires Elemental Golem Shoulder & CR L 4 Back", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Dog"))()
+end)
+
 ScriptsTab:NewButton("Mute Boombox", "Mutes everyones boombox", function()
 	while wait(1) do
 for i,v in pairs(game:GetDescendants()) do
