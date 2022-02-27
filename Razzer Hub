@@ -34,6 +34,10 @@ ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gravity%20Gun"))()
 end)
 
+ScriptsTab:NewButton("UFO", "Requires the Amazon Prime UFO", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/UFO"))()
+end)
+
 ScriptsTab:NewButton("Big Daddy", "thick", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Big%20Daddy.lua"))()
 end)
