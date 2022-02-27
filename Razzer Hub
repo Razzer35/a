@@ -82,10 +82,6 @@ ScriptsTab:NewButton("Mech Hub", "Check Discord For Hats Required", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Mech%20Hub"))()
 end)
 
-ScriptsTab:NewButton("PP", "Gives you a massive long schlong dong", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/PP"))()
-end)
-
 ScriptsTab:NewButton("Marble", "The effect of you rolling around is FE but the marble isn't", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Marble"))()
 end)
