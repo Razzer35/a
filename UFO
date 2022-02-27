@@ -18,7 +18,7 @@ getgenv().PlayAudios = false -- set to true if you want to hear the clientsided 
 ]]--
 
 local creditsstring = 
-[[FE UFO script made by DevilInJersey on ROBLOX
+[[FE UFO script made by quirky anime boy#7003
 required hat: roblox.com/catalog/8151404994 (requires amazon prime to redeem)
 ]]
 
@@ -1548,3 +1548,4 @@ char.Humanoid.Died:Connect(function()
 end)
 UFO.Handle:BreakJoints()
 align(UFO.Handle, o2, Vector3.new(-1,0,0))
+
