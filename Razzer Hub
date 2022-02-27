@@ -67,6 +67,10 @@ ScriptsTab:NewButton("Creeper", "FE Minecraft Creeper", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creeper"))()
 end)
 
+ScriptsTab:NewButton("Neko", "*notices your bulge*", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Neko"))()
+end)
+
 ScriptsTab:NewButton("Flip", "Z - Frontflip, X - Backflip, C - Infinite Jump", function()
 	
 	wait(2)
