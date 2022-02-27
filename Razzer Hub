@@ -30,6 +30,10 @@ ScriptsTab:NewButton("Assault Rifle", "For military needs", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/AR-15"))()
 end)
 
+ScriptsTab:NewButton("UFO", "Area 69 ;)", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/UFO"))()
+end)
+
 ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gravity%20Gun"))()
 end)
