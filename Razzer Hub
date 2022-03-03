@@ -26,6 +26,10 @@ end)
 
 -- Script Buttons
 
+ScriptsTab:NewButton("Fire God", "Requires Fiery Fox Shoulder Pal", function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/D7pigANg"))()
+end)
+
 ScriptsTab:NewButton("Assault Rifle", "For military needs", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/AR-15"))()
 end)
