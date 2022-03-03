@@ -38,12 +38,12 @@ ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gravity%20Gun"))()
 end)
 
-ScriptsTab:NewButton("Big Daddy", "thick", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Big%20Daddy.lua"))()
+ScriptsTab:NewButton("Neck Snap", "For comedy purposes", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Neck%20Snap"))()
 end)
 
-ScriptsTab:NewButton("Grab Knife", "Finished version of Grab Knife.", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Grab%20Knife.lua"))()
+ScriptsTab:NewButton("Big Daddy", "thick", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Big%20Daddy.lua"))()
 end)
 
 ScriptsTab:NewButton("Guts", "Flings on touch and on swing!", function()
