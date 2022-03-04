@@ -38,16 +38,16 @@ ScriptsTab:NewButton("UFO", "Area 69 ;)", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/UFO"))()
 end)
 
+ScriptsTab:NewButton("Kazotsky Kick", "for ppl with a third leg", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Kazotsky%20Kick"))()
+end)
+
 ScriptsTab:NewButton("Gravity Gun", "Creds to MastersMZ", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Gravity%20Gun"))()
 end)
 
 ScriptsTab:NewButton("Neck Snap", "For comedy purposes", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Neck%20Snap"))()
-end)
-
-ScriptsTab:NewButton("Big Daddy", "thick", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Big%20Daddy.lua"))()
 end)
 
 ScriptsTab:NewButton("Guts", "Flings on touch and on swing!", function()
