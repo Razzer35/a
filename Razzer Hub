@@ -38,6 +38,10 @@ ScriptsTab:NewButton("UFO", "Area 69 ;)", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/UFO"))()
 end)
 
+ScriptsTab:NewButton("Creepy Crawler", "Spiderman?!?", function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Creepy%20Crawler"))()
+end)
+
 ScriptsTab:NewButton("R6 Kazotsky Kick", "R6 for ppl with a third leg", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Razzer35/a/main/Kazotsky%20Kick"))()
 end)
